@@ -1,6 +1,6 @@
 Репозиторий donate-page-audit.
 
-Раз в день GitHub Actions проверяет страницу для сбора донатов по адресу из audit.yml и складывает отчёты в reports/audit.
+Раз в день GitHub Actions проверяет страницу https://evgeniihram.rf.gd/ и складывает отчёты в reports/audit.
 
 Что проверяется:
 
@@ -18,6 +18,6 @@ reports/audit/last_status.json — последний статус одной с
 
 Настройка:
 
-В audit.yml замени url на свою страницу и при желании правь список проверок.
+В audit.yml уже прописан адрес сайта и проверки. Когда поставишь кнопку доната, при необходимости поправь в audit.yml значение value у проверок под текст и ссылку, которые реально будут на странице.
 В Settings → Actions → General включи Read and write permissions, иначе push из workflow не пройдёт.
 Запустить вручную можно во вкладке Actions, workflow Audit donate page, кнопка Run workflow.
