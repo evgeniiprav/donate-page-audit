@@ -1,0 +1,67 @@
+{
+  "url": "https://evgeniihram.rf.gd/",
+  "checked_at": "2026-11-05T04:00:34+00:00",
+  "status_code": 200,
+  "elapsed_ms": 525,
+  "page_size": 844,
+  "overall_status": "problems",
+  "error": null,
+  "checks": [
+    {
+      "name": "Кнопка доната",
+      "type": "text",
+      "severity": "critical",
+      "passed": false,
+      "detail": "искали 'поддержать' в тексте"
+    },
+    {
+      "name": "Ссылка на DonationAlerts",
+      "type": "link",
+      "severity": "critical",
+      "passed": false,
+      "detail": "искали 'donationalerts.com' в html и тексте"
+    },
+    {
+      "name": "Ссылка на Boosty",
+      "type": "link",
+      "severity": "warning",
+      "passed": false,
+      "detail": "искали 'boosty.to' в html и тексте"
+    },
+    {
+      "name": "Реквизиты",
+      "type": "text",
+      "severity": "warning",
+      "passed": false,
+      "detail": "искали 'реквизиты' в тексте"
+    },
+    {
+      "name": "Контакт Telegram",
+      "type": "link",
+      "severity": "warning",
+      "passed": false,
+      "detail": "искали 't.me' в html и тексте"
+    },
+    {
+      "name": "Политика конфиденциальности",
+      "type": "text",
+      "severity": "warning",
+      "passed": false,
+      "detail": "искали 'политика' в тексте"
+    },
+    {
+      "name": "Признак ошибки на странице",
+      "type": "absent_text",
+      "severity": "critical",
+      "passed": true,
+      "detail": "проверяли отсутствие 'страница не найдена'"
+    },
+    {
+      "name": "Код ответа 200",
+      "type": "status",
+      "severity": "critical",
+      "passed": true,
+      "detail": "ожидали код 200, получили 200"
+    }
+  ]
+}
