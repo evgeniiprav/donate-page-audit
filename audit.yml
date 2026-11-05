@@ -1,4 +1,4 @@
-url: https://example.com/donate
+url: https://evgeniihram.rf.gd/
 timeout: 20
 checks:
   - name: Кнопка доната
