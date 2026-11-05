@@ -1,0 +1,35 @@
+url: https://example.com/donate
+timeout: 20
+checks:
+  - name: Кнопка доната
+    type: text
+    value: поддержать
+    severity: critical
+  - name: Ссылка на DonationAlerts
+    type: link
+    value: donationalerts.com
+    severity: critical
+  - name: Ссылка на Boosty
+    type: link
+    value: boosty.to
+    severity: warning
+  - name: Реквизиты
+    type: text
+    value: реквизиты
+    severity: warning
+  - name: Контакт Telegram
+    type: link
+    value: t.me
+    severity: warning
+  - name: Политика конфиденциальности
+    type: text
+    value: политика
+    severity: warning
+  - name: Признак ошибки на странице
+    type: absent_text
+    value: страница не найдена
+    severity: critical
+  - name: Код ответа 200
+    type: status
+    value: 200
+    severity: critical
