@@ -1,6 +1,6 @@
 Репозиторий donate-page-audit.
 
-Раз в день GitHub Actions проверяет страницу https://evgeniihram.rf.gd/ и складывает отчёты в reports/audit.
+Раз в день GitHub Actions проверяет страницу https://evgenii.infinityfreeapp.com/ и складывает отчёты в reports/audit.
 
 Что проверяется:
 
